@@ -51,6 +51,64 @@ export default function Graph({}: GraphProps) {
       type: "datetime",
       categories: dates,
     },
+    annotations: {
+      yaxis: [
+        {
+          y: 200,
+          borderColor: "#00E396",
+          label: {
+            borderColor: "#00E396",
+            style: {
+              color: "#fff",
+              background: "#00E396",
+            },
+            text: "This is test",
+          },
+        },
+        {
+          y: 400,
+          y2: 350,
+          borderColor: "#00E396",
+          label: {
+            borderColor: "#00E396",
+            style: {
+              color: "#fff",
+              background: "#00E396",
+            },
+            text: "This is test 2",
+          },
+        },
+        {
+          y: 850,
+          y2: 900,
+          borderColor: "#00E396",
+          label: {
+            borderColor: "#00E396",
+            style: {
+              color: "#fff",
+              background: "#00E396",
+            },
+            text: "This is test 3",
+          },
+        },
+      ],
+      xaxis: [
+        {
+          x: new Date("25 Oct 2022").getTime(),
+          x2: new Date("23 Oct 2022").getTime(),
+          borderColor: "#00E396",
+          label: {
+            borderColor: "#00E396",
+            orientation: "horizontal",
+            style: {
+              color: "#fff",
+              background: "#00E396",
+            },
+            text: "This is test 3",
+          },
+        },
+      ],
+    },
   };
 
   const options2 = {
