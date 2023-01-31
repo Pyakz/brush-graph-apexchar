@@ -1,11 +1,17 @@
-import PrimarySearchAppBar from "./AppBar";
-import Graph from "./Graph";
+import PrimarySearchAppBar from "./components/AppBar";
+import Graph from "./components/Graph";
 import "./App.css";
 function App() {
   return (
     <div className="App">
       <PrimarySearchAppBar />
-      <Graph />
+      <div
+        style={{
+          padding: "3rem 2rem",
+        }}
+      >
+        <Graph />
+      </div>
     </div>
   );
 }
