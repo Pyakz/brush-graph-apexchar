@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/brush-graph-apexchar/static/css/main.23848eeb.css",
-    "main.js": "/brush-graph-apexchar/static/js/main.bf5af835.js",
+    "main.js": "/brush-graph-apexchar/static/js/main.1517e843.js",
     "static/js/787.e63ba1e5.chunk.js": "/brush-graph-apexchar/static/js/787.e63ba1e5.chunk.js",
     "index.html": "/brush-graph-apexchar/index.html",
     "main.23848eeb.css.map": "/brush-graph-apexchar/static/css/main.23848eeb.css.map",
-    "main.bf5af835.js.map": "/brush-graph-apexchar/static/js/main.bf5af835.js.map",
+    "main.1517e843.js.map": "/brush-graph-apexchar/static/js/main.1517e843.js.map",
     "787.e63ba1e5.chunk.js.map": "/brush-graph-apexchar/static/js/787.e63ba1e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23848eeb.css",
-    "static/js/main.bf5af835.js"
+    "static/js/main.1517e843.js"
   ]
 }
