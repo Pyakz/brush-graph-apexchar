@@ -88,7 +88,7 @@ export default function Graph({}: GraphProps) {
         },
         xaxis: {
           min: new Date("Aug 01 2022").getTime(),
-          max: new Date("Nov 01 2022").getTime(),
+          max: new Date().getTime(),
         },
       },
     },
